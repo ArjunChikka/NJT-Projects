@@ -3,8 +3,8 @@
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-**Author:** Your Name  
-**Date:** YYYY-MM-DD  
+**Author:** Arjun Chikkappa 
+**Date:** 2025-07-31  
 
 ---
 
@@ -83,7 +83,7 @@ This project builds a station-level ridership model for New Jersey Transit (NJT)
    - **Service frequency/timepoint details** (`stop_times.txt`)  
 
 2. **Geospatial & Amenity Features**  
-   - **Station coordinates** (`stops.txt`)  
+   - **Station coordinates** ('stops.txt')  
    - **Parking capacity & WalkScore** (scraped in `Stop_Data.ipynb`)  
    - **Distance & transit travel times** to New York Penn (computed in `Stop_Data.ipynb`)  
    - **Walking & driving isochrones** (generated in `IsoChrones.ipynb`)  
