@@ -52,7 +52,7 @@
 ## Project Structure
 
 ```
-njt-ridership-model/
+NJT-Projects/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
