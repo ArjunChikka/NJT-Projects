@@ -42,7 +42,7 @@
 3. **Launch the notebooks** in sequence:
    ```bash
    jupyter lab notebooks/01_Stop_Data.ipynb
-   jupyter lab notebooks/02_IsoChrones.ipynb
+   jupyter lab notebooks/02_Isochrones_IntersectingData
    jupyter lab notebooks/03_Modeling.ipynb
    ```
    Or run the consolidated overview in `notebooks/Ridership_Modeling.ipynb`.
