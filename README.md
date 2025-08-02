@@ -53,23 +53,40 @@
 
 ```
 NJT-Projects/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
+├── config/                            ← new
+│   └── config_template.py
+│
 ├── data/
+│   ├── raw GTFS data/
+│   │   ├── agency.txt
+│   │   ├── calendar_dates.txt
+│   │   ├── routes.txt
+│   │   ├── shapes.txt
+│   │   ├── stop_times.txt
+│   │   ├── stops.txt
+│   │   └── trips.txt
+│   │
+│   ├── Full_Station_Data.csv
 │   ├── NJT 2019 Ridership.xlsx
-│   ├── stops.txt
-│   └── stop_times.txt
+│   └── Station_Characteristics_Final.csv
+│
+│   └── gis/                          ← new
+│       ├── NJT_stations.shp
+│       ├── NJT_stations.shx
+│       ├── NJT_stations.dbf
+│       ├── NJT_stations.prj
+│       └── NJT_stations.qgz
+│
 ├── notebooks/
 │   ├── 01_Stop_Data.ipynb
-│   ├── 02_IsoChrones.ipynb
-│   ├── 03_Modeling.ipynb
-│   └── Ridership_Modeling.ipynb
+│   └── 02_Isochrones_IntersectingData.ipynb
+│
 ├── scripts/
 │   └── census_data.py
-└── src/
-    └── utils.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ---
